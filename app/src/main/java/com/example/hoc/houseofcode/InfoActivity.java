@@ -40,7 +40,7 @@ public class InfoActivity extends AppCompatActivity {
 
         // Oat bran
         rows.put("Oat bran ID", Integer.toString(loggedInUser.getOatBranID()));
-        rows.put("Oat bran amount", Integer.toString(loggedInUser.getOatBranAmout()));
+        rows.put("Oat bran amount", Double.toString(loggedInUser.getOatBranAmout()));
         rows.put("Oat bran created at", loggedInUser.getOatBranCreatedAt());
         rows.put("Oat bran updated at", loggedInUser.getOatBranUpdatedAt());
 

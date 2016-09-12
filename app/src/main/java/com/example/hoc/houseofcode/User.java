@@ -17,7 +17,7 @@ public class User implements Serializable {
     private String subscription_created_at;
     private String subscription_updated_at;
     private int oat_bran_id;
-    private int oat_bran_amount;
+    private double oat_bran_amount;
     private String oat_bran_created_at;
     private String oat_bran_updated_at;
 
@@ -125,11 +125,11 @@ public class User implements Serializable {
         this.oat_bran_id = oat_bran_id;
     }
 
-    public int getOatBranAmout(){
+    public double getOatBranAmout(){
         return this.oat_bran_amount;
     }
 
-    public void setOatBranAmount(int oat_bran_amount){
+    public void setOatBranAmount(double oat_bran_amount){
         this.oat_bran_amount= oat_bran_amount;
     }
 

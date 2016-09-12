@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
                             // Oat bran
                             JSONObject result_oat_bran = result_user.getJSONObject("oat_bran");
                             loggedInUser.setOatBranID(result_oat_bran.getInt("id"));
-                            loggedInUser.setOatBranAmount(result_oat_bran.getInt("amount"));
+                            loggedInUser.setOatBranAmount(result_oat_bran.getDouble("amount"));
                             loggedInUser.setOatBranCreatedAt(result_oat_bran.getString("created_at"));
                             loggedInUser.setOatBranUpdatedAt(result_oat_bran.getString("updated_at"));
 
